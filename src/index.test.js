@@ -2,13 +2,14 @@
 
 /* global expect */
 
-const MicroApp = require('@micro-app/cli/bin/base');
-const service = MicroApp.service;
 const path = require('path');
 
 describe('Plugin KoaWebpackMiddleware', () => {
 
     it('KoaWebpackMiddleware', () => {
+        process.env.NODE_ENV = 'development';
+
+        const { service } = require('@micro-app/cli/bin/base');
         service.registerPlugin({
             id: 'test:KoaWebpackMiddleware',
             link: path.join(__dirname, './index.js'),

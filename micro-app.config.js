@@ -5,12 +5,6 @@ module.exports = {
     description: '',
     version: '0.0.1',
     type: '', // types 类型
-    webpack: { // webpack 配置 (只有自己使用)
-        // output: {
-        //     path: path.resolve(__dirname, 'public'),
-        //     publicPath: '/public/',
-        // },
-    },
 
     // staticPath: '',
 
@@ -41,24 +35,4 @@ module.exports = {
             // 服务端回调参数
         },
     },
-
-    plugins: [
-        [{
-            id: 'test',
-            description: '这是test',
-            link: __dirname + '/test/testPlugin',
-        }, {
-            a: 1,
-        }],
-    ],
-
-    // deploy: {
-    //     git: 'git+ssh://git@xxxxx.git',
-    //     branch: 'test',
-    //     // branch: {
-    //     //     name: 'develop',
-    //     //     extends: true,
-    //     // },
-    //     message: '', // 提交 message 中增加内容
-    // },
 };

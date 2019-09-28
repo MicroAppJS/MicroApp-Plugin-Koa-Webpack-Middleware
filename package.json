@@ -1,6 +1,6 @@
 {
     "name": "@micro-app/plugin-koa-webpack-middleware",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "[Plugin] add koa webpack middleware plugin for development.",
     "main": "src/index.js",
     "scripts": {
@@ -34,8 +34,8 @@
         "@micro-app/core": ">=0.1.5"
     },
     "devDependencies": {
-        "@micro-app/cli": "^0.1.4-beta.1",
-        "@micro-app/core": "^0.1.4-beta.1",
+        "@micro-app/cli": "^0.1.5",
+        "@micro-app/core": "^0.1.5",
         "@types/jest": "^24.0.18",
         "babel-eslint": "^10.0.3",
         "coveralls": "^3.0.6",
