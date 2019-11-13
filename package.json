@@ -9,13 +9,13 @@
     "files": [
         "src"
     ],
-    "homepage": "https://github.com/MicrosApp/MicroApp-Plugin-Koa-Webpack-Middleware",
+    "homepage": "https://github.com/MicroAppJS/MicroApp-Plugin-Koa-Webpack-Middleware",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MicrosApp/MicroApp-Plugin-Koa-Webpack-Middleware.git"
+        "url": "git+https://github.com/MicroAppJS/MicroApp-Plugin-Koa-Webpack-Middleware.git"
     },
     "bugs": {
-        "url": "https://github.com/MicrosApp/MicroApp-Plugin-Koa-Webpack-Middleware/issues"
+        "url": "https://github.com/MicroAppJS/MicroApp-Plugin-Koa-Webpack-Middleware/issues"
     },
     "keywords": [
         "micro",
